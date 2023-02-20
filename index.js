@@ -15,4 +15,14 @@ else if(studyCourse == scienceSubjects){
 else if(studyCourse == socialScienceSubjects){
     console.log(socialScienceSubjects + generalSubjects)
 } 
-else{console.log(generalSubjects)}
+else{console.log(generalSubjects)} // output Government, Economics,Literature, History English ,Mathematics
+
+
+//5
+
+let lastValue;
+for (let i = 2; i < 36; i = i**2) {
+  lastValue = i;
+}
+
+console.log(lastValue); //output is 16
